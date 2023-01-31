@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\img\Screen Shot 2023-01-28 at 10.09.52 PM.png" />
+  </ItemGroup>
+
+</Project>

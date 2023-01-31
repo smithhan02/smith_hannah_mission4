@@ -1,0 +1,27 @@
+﻿body {
+    padding: 20px;
+}
+
+.myform {
+    width: 33.33%;
+    padding: 20px;
+    background-color: lavender;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: auto;
+}
+
+.mycontainer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    height: 700px;
+    width: 1000px;
+}
+.lavender-bg {
+    background-color: lavender;
+}

@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<!--Hannah Smith Mission 4 program -->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="css/default.css" rel="stylesheet" />
+    <link href="lib/bootstrap/bootstrapcss/bootstrap.min.css" rel="stylesheet" />
+    <title> Hannah Smith's First ASP.NET Website</title>
+    <!--Add personal favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/flowerFavicon.png" />
+</head>
+    <!--About me section -->
+<body>
+    <div class="jumbotron text-center lavender-bg"  >
+        <h1>Hannah Smith's First ASP.NET Website </h1>
+    </div>
+
+    <img src="img/Screen Shot 2023-01-30 at 6.18.56 PM.png" />
+    <h4>Prefered Name: Hannah Smith</h4>
+    <p>
+        I hope that IS 413 will help me gain a greater understanding of how frameworks such
+        as ASP.NET can be used to accelerate and enhance the learning process. I also hope that
+        this class will help me become a better programmer and learn how to take on unfamililar coding languages.
+    </p>
+
+    <h4> Top 3 Jobs I Want to Pursue Upon Graduation: </h4>
+    <ul>
+        <li> 1. Artificial Intelligence Specialist  </li>
+        <li> 2. Tech Consultant  </li>
+        <li> 3. User Experience Designer   </li>
+
+    </ul>
+    <!--Grade Calculator Form -->
+    <div class="mycontainer">
+        <h2>
+            Grade Calculator
+        </h2>
+        <p>Please enter percentage without the % sign ei; 90</p>
+        <form class="myform">
+
+            <label> Assignments(50%) </label>
+            <input id="assignments" class="form-control" /> <br />
+
+            <label> Group Project(10%) </label>
+            <input id="project" class="form-control" /> <br />
+
+            <label> Quizzes(10%) </label>
+            <input id="quizzes" class="form-control" /> <br />
+
+            <label> Midterm Exam(10%) </label>
+            <input id="midterm" class="form-control" /> <br />
+
+            <label> Final Exam(10%) </label>
+            <input id="final" class="form-control" /> <br />
+
+            <label> Intex(10%) </label>
+            <input id="intex" class="form-control" /> <br />
+
+            <p id="output">  </p>
+            <input type="button" id="btnSend" value="Calculate Grade" class="form-control" />
+        </form>
+    </div>
+    <script src="lib/jquery-3.6.3.min.js"></script>
+
+    <script src="js/site.js"></script>
+
+    <p id="output"></p>
+
+
+</body>
+</html>
