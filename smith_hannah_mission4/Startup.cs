@@ -21,8 +21,18 @@ namespace smith_hannah_mission4
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseDefaultFiles();
+           
            app.UseStaticFiles();
+
+           app.UseRouting();
+
+           app.UseEndpoints(endpoints =>
+           {
+               endpoints.MapControllerRoute(
+                   name: "default",
+                   pattern: "{controller-Blah}/{Action=Index}/{id?}"
+                   );
+           });
         }
     }
 }
