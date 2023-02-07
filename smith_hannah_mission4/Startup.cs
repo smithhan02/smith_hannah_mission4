@@ -34,7 +34,7 @@ namespace smith_hannah_mission4
            {
                endpoints.MapControllerRoute(
                    name: "default",
-                   pattern: "{controller-Blah}/{Action=Index}/{id?}"
+                   pattern: "{controller=Blah}/{action=Index}/{id?}"
                    );
            });
         }

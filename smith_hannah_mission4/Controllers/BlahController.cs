@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using smith_hannah_mission4.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,18 @@ namespace smith_hannah_mission4.Controllers
         {
             return View();
         }
-       
+
+        [HttpGet]
+        public IActionResult gradeCalc()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult gradeCalc(gradeCalcModel model)
+        {
+            return View();
+        }
+
     }
 }

@@ -8,8 +8,4 @@
     <None Include="wwwroot\img\Screen Shot 2023-01-28 at 10.09.52 PM.png" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>

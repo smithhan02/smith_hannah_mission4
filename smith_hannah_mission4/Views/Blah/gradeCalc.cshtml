@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Grade Calulator";
+}
+
+
+@model gradeCalcModel;
+
+<nav>
+    <a asp-controller="Blah" asp-action="Index">Home |</a>
+    <a asp-controller="Blah" asp-action="gradeCalc">Grade Calculator</a>
+</nav>
+<!--Grade Calculator Form -->
+<div class="mycontainer">
+    <h2>
+        Grade Calculator
+    </h2>
+    <p>Please enter percentage without the % sign ei; 90</p>
+    <form class="myform" method="post">
+
+        <label> Assignments(50%) </label>
+        <input id="assignments" asp-for="assignments" class="form-control" /> <br />
+
+        <label> Group Project(10%) </label>
+        <input id="project" asp-for="project" class="form-control" /> <br />
+
+        <label> Quizzes(10%) </label>
+        <input id="quizzes" asp-for="quizzes" class="form-control" /> <br />
+
+        <label> Midterm Exam(10%) </label>
+        <input id="midterm" asp-for="midterm" class="form-control" /> <br />
+
+        <label> Final Exam(10%) </label>
+        <input id="final" asp-for="final" class="form-control" /> <br />
+
+        <label> Intex(10%) </label>
+        <input id="intex" asp-for="intex" class="form-control" /> <br />
+
+        <p id="output">  </p>
+        <input type="submit" id="btnSend" value="Calculate Grade" class="form-control" />
+        
+        <div asp-validation-summary="All"></div>
+    </form>
+</div>
+
+<script src="js/site.js"></script>
+
+<p id="output"></p>
